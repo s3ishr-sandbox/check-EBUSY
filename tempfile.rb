@@ -3,5 +3,5 @@
 
 require 'tempfile'
 
-tf = Tempfile.new('tempfile.test', './')
+tf = Tempfile.new('tempfile.src', './')
 File.rename(tf.path, 'tempfile.dst')
